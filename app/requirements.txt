@@ -1,0 +1,15 @@
+
+fastapi
+uvicorn
+nats-py
+weaviate-client
+openai
+requests
+sqlalchemy
+psycopg2-binary
+
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+alembic
+aiohttp
