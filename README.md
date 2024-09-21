@@ -42,14 +42,11 @@ Create the first admin user:
 
 Obtain an access token:
 
-```curl -X POST http://localhost:8000/token
--H "Content-Type: application/x-www-form-urlencoded"
--d "username=admin&password=adminpassword"```
+```curl -X POST http://localhost:8000/token -H "Content-Type: application/x-www-form-urlencoded" -d "username=admin&password=adminpassword"```
 
 
 ### Creating a Subscription
-```curl -X POST "http://localhost:8000/subscribe/?user_id=testuser&user_query=AI%20and%20machine%20learning%20updates"
--H "Authorization: Bearer YOUR_ACCESS_TOKEN"```
+```curl -X POST "http://localhost:8000/subscribe/?user_id=testuser&user_query=AI%20and%20machine%20learning%20updates" -H "Authorization: Bearer YOUR_ACCESS_TOKEN"```
 
 
 ## Configuration
@@ -71,4 +68,4 @@ Please read CONTRIBUTING.md for details on our code of conduct and the process f
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the Apache 2.0 License - see the LICENSE.md file for details.
